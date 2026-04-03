@@ -16,4 +16,4 @@ topics:
 formats:
 - thought_leadership
 - engagement_post
-enabled: false
+enabled: true
