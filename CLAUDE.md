@@ -77,3 +77,31 @@ The system implements a **Three-Pillar Learning** architecture:
 -   ⏳ UI Dashboard (pywebview/FastAPI)
 -   ⏳ Automated AI Gatekeeper (Pre-screening rejections)
 -   ⏳ Advanced LinkedIn Integration (Company polls/carousel)
+-   ⏳ Enhanced Multi-Account Proxy Support
+
+## 🔄 Git & Development Workflow
+To ensure repository stability and a clean history, the following rules are mandatory:
+
+### 1. Branching Strategy
+-   **Base Branch**: All work MUST start from `develop`.
+-   **Feature Branches**: Create a new branch for every task: `feature/<task-name>`.
+-   **Main Branch**: Reserved for production-ready, stable releases.
+
+### 2. Synchronization (Pull First)
+Before starting any work or checking out a new branch, you MUST pull the latest changes:
+```bash
+git checkout develop
+git pull origin develop
+```
+
+### 3. Merging Policy (GitHub Only)
+-   **No Local Merges**: Never merge feature branches into `develop` or `main` locally.
+-   **Pull Requests**: Push your feature branch to `origin` and open a Pull Request.
+-   **Review & Merge**: Merges to `develop` and eventually to `main` are handled exclusively via the GitHub web interface.
+
+### 4. Commits
+- Use descriptive, conventional commit messages (e.g., `feat: ...`, `fix: ...`, `docs: ...`).
+- Split large changes into logical, smaller commits where applicable.
+
+---
+© 2026 Social Agent Framework.
