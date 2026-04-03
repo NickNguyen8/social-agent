@@ -1,0 +1,17 @@
+id: gtemas_jsc_page
+type: page
+name: Gtemas Jsc Facebook Page
+brand_name: Gtemas JSC
+tagline: Đối tác tin cậy cho chuyển đổi số và nhân sự công nghệ
+website: https://gtemas.com
+hashtags: [Gtemas, Recruitment, TechPartnership, Outsourcing]
+target_id: '793789520455674'
+access_token: ${GTEMAS_JSC_TOKEN}
+schedule: 0 10 * * *
+topics:
+- ai_vietnam
+- dx_consulting
+formats:
+- thought_leadership
+- quick_insight
+enabled: true

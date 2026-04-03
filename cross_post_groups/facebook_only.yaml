@@ -1,0 +1,5 @@
+id: facebook_only
+name: Chỉ Facebook
+targets:
+- fastdx_page
+- personal_profile

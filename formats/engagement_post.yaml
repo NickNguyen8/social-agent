@@ -1,0 +1,6 @@
+id: engagement_post
+name: Engagement Post
+description: Đặt câu hỏi, đưa context, liệt kê điểm chính, kết bằng câu hỏi mở
+structure: question + context + bullet_points + closing_question + hashtags
+max_length: 400
+hashtag_count: 4

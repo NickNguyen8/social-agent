@@ -1,0 +1,17 @@
+id: gtemas_careers_page
+type: page
+name: Gtemas Careers Facebook Page
+brand_name: Gtemas Careers
+tagline: Xây dựng tương lai và sự nghiệp công nghệ tại Gtemas
+website: https://gtemas.com/careers
+hashtags: [GtemasCareers, Hiring, TechJob, DevLife]
+target_id: '666065889917684'
+access_token: ${GTEMAS_CAREERS_TOKEN}
+schedule: 0 9,17 * * *
+topics:
+- leadership_tech
+- ai_vietnam
+formats:
+- story_post
+- engagement_post
+enabled: true

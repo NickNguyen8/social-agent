@@ -1,0 +1,19 @@
+id: fastdx_page
+type: page
+name: Fast DX Facebook Page
+brand_name: FastDX
+tagline: Giải pháp AI & Chuyển đổi số thực chiến cho doanh nghiệp Việt
+website: https://fastdx.dev
+hashtags: [FastDX, AgenticAI, DX, GenAI]
+target_id: '1004575376074629'
+access_token: ${FASTDX_PAGE_TOKEN}
+schedule: 0 8,18 * * *
+topics:
+- ai_vietnam
+- fintech_sea
+- dx_consulting
+formats:
+- thought_leadership
+- quick_insight
+review_mode: false
+enabled: true
