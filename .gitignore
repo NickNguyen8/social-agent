@@ -1,0 +1,42 @@
+.env
+logs/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.egg-info/
+dist/
+build/
+
+# Runtime output files
+social_post.txt
+
+# Browser automation profile (Patchright / Chromium)
+.fb_agent_profile/
+
+# pytest cache
+.pytest_cache/
+
+# User data directories (runtime — không commit)
+# macOS:   ~/Library/Application Support/social-agent/
+# Windows: %APPDATA%/social-agent/
+# Linux:   ~/.local/share/social-agent/
+# Nếu dev chạy local và data/ bị tạo ở CWD:
+data/
+
+# SQLite database (chứa audit logs + review queue — không commit)
+*.db
+*.db-shm
+*.db-wal
+
+# Backup JSONL files từ migration
+*.jsonl.bak
+
+# Temporary image files từ image_generator
+/tmp/fastdx_post_*.jpg
+/tmp/fastdx_post_*.png
+
+# Virtual environment
+.venv/
+venv/
+env/
