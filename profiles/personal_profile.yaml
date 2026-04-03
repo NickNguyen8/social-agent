@@ -1,0 +1,17 @@
+id: personal_profile
+type: profile
+name: Nick's Personal Profile
+brand_name: Nick Nguyen
+tagline: Digital Transformation & AI Implementation Expert
+website: https://fastdx.dev
+hashtags: [DigitalTransformation, AI, PersonalBranding, TechStrategy]
+chrome_profile: ${FB_CHROME_PROFILE_PATH}
+chrome_profile_dir: ${FB_CHROME_PROFILE_DIR}
+schedule: 0 9 * * *
+topics:
+- leadership_tech
+- ai_vietnam
+formats:
+- story_post
+- thought_leadership
+enabled: false

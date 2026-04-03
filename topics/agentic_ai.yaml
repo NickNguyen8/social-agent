@@ -1,0 +1,18 @@
+id: agentic_ai
+name: Agentic AI Systems (Autonomous Workflows)
+description: Hệ thống AI tự trị (Agents) có khả năng lập kế hoạch, ra quyết định và
+  thực thi quy trình đa bước. Vượt xa chatbot thông thường để trở thành nhân sự số
+  thực thụ.
+keywords:
+- Autonomous Agents
+- Multi-step reasoning
+- AI Workforce
+- Tool use
+- LangChain
+- CrewAI
+language: mixed
+research:
+  urls:
+  - https://fastdx.dev/en/blog/what-is-agentic-ai
+  fb_pages: []
+  linkedin_companies: []

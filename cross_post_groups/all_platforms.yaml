@@ -1,0 +1,5 @@
+id: all_platforms
+name: Đăng tất cả platforms
+targets:
+- fastdx_page
+- linkedin_profile

@@ -1,0 +1,19 @@
+id: fastdx_linkedin
+type: linkedin_company
+name: FastDX LinkedIn Page
+brand_name: FastDX
+tagline: AI-First Consulting & Digital Transformation
+website: https://fastdx.dev
+hashtags: [FastDX, DigitalTransformation, AI, LinkedInBusiness]
+company_id: YOUR_FASTDX_COMPANY_ID
+access_token: ${LINKEDIN_COMPANY_TOKEN}
+visibility: PUBLIC
+schedule: 0 9 * * 2,4
+topics:
+- dx_consulting
+- fintech_sea
+- ai_vietnam
+formats:
+- thought_leadership
+- engagement_post
+enabled: false

@@ -1,0 +1,6 @@
+id: story_post
+name: Story Post
+description: Kể chuyện ngắn có mở đầu hấp dẫn, diễn biến, và bài học rút ra
+structure: opening_hook + narrative + lesson + hashtags
+max_length: 450
+hashtag_count: 4
