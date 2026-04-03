@@ -1,0 +1,5 @@
+id: linkedin_only
+name: Chỉ LinkedIn
+targets:
+- linkedin_profile
+- fastdx_linkedin

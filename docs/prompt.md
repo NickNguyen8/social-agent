@@ -1,0 +1,1 @@
+đọc bộ source code này và cho tôi biết nó đã là được structure với cả best practice software architect chưa cả vể code clean, security và performance nữa. sau khi xử lý xong tính năng tôi dự tính có thể dùng để build app trên linux, macos, windows để giúp mọi người đặt lịch quản lý đăng bài sau này

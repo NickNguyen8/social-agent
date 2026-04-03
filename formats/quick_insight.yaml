@@ -1,0 +1,6 @@
+id: quick_insight
+name: Quick Insight
+description: Hook ngắn, insight nhanh, CTA rõ ràng - phù hợp engagement cao
+structure: hook + insight + cta + hashtags
+max_length: 280
+hashtag_count: 3

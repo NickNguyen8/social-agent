@@ -1,0 +1,18 @@
+id: linkedin_profile
+type: linkedin_profile
+name: Nick's LinkedIn Profile
+brand_name: Nick Nguyen
+tagline: DX & AI Advisor | Helping SMEs Scale with Agentic AI
+website: https://fastdx.dev
+hashtags: [AgenticAI, DX, SME, Innovation]
+access_token: ${LINKEDIN_ACCESS_TOKEN}
+visibility: PUBLIC
+schedule: 0 8 * * 1,2,3,4,5
+topics:
+- ai_vietnam
+- dx_consulting
+- leadership_tech
+formats:
+- thought_leadership
+- quick_insight
+enabled: false

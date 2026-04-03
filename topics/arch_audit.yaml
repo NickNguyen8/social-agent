@@ -1,0 +1,11 @@
+id: arch_audit
+name: Architecture & Security Audit
+description: Kiểm định kiến trúc và bảo mật hệ thống. Đảm bảo phần mềm Scale tốt,
+  bảo mật và không có nợ kỹ thuật (Tech Debt).
+keywords:
+- Clean Architecture
+- Security Review
+- Scalability
+- Performance Optimization
+- Tech Debt
+language: mixed

@@ -1,0 +1,6 @@
+id: thought_leadership
+name: Thought Leadership
+description: Bài chuyên môn có tiêu đề nổi bật, nội dung sâu, hashtag cuối
+structure: title + body + hashtags
+max_length: 500
+hashtag_count: 5

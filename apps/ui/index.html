@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Agent</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <nav class="sidebar">
+      <div class="logo">Social Agent</div>
+      <ul>
+        <li class="active" data-page="dashboard">Dashboard</li>
+        <li data-page="post">Đăng bài</li>
+        <li data-page="schedule">Lịch đăng</li>
+        <li data-page="stats">Thống kê</li>
+        <li data-page="config">Cấu hình</li>
+      </ul>
+    </nav>
+    <main id="content">
+      <div class="page active" id="page-dashboard">
+        <h1>Dashboard</h1>
+        <p class="placeholder">Đang tải dữ liệu...</p>
+      </div>
+      <div class="page" id="page-post">
+        <h1>Đăng bài</h1>
+        <p class="placeholder">Coming soon</p>
+      </div>
+      <div class="page" id="page-schedule">
+        <h1>Lịch đăng</h1>
+        <p class="placeholder">Coming soon</p>
+      </div>
+      <div class="page" id="page-stats">
+        <h1>Thống kê</h1>
+        <p class="placeholder">Coming soon</p>
+      </div>
+      <div class="page" id="page-config">
+        <h1>Cấu hình</h1>
+        <p class="placeholder">Coming soon</p>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

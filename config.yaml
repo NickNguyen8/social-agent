@@ -1,0 +1,29 @@
+# ============================================================
+# Social Agent - Global Configuration
+# ============================================================
+
+llm:
+  provider: gemini
+  model: gemini-2.0-flash            # or gemini-1.5-pro
+  temperature: 0.7
+  max_tokens: 4096
+
+# Note: Topics, Formats, and Targets are now loaded from 
+# the individual YAML files in:
+#   - profiles/
+#   - topics/
+#   - formats/
+#   - cross_post_groups/
+
+# --- Scheduler Settings ---
+scheduler:
+  timezone: "Asia/Ho_Chi_Minh"
+  misfire_grace_time: 300              # Max delay 5 mins
+  coalesce: true                       # Coalesce missed jobs
+
+# --- Logging ---
+logging:
+  level: INFO
+  log_dir: logs
+  max_bytes: 10485760                  # 10MB
+  backup_count: 5
